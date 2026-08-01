@@ -1,7 +1,15 @@
 aid: qbiq
 name: Qbiq
-description: Qbiq is a company surfaced as a portfolio company of insight-partners and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Qbiq is an AI-powered space planning and architectural visualization platform for real estate.
+  It lets brokers, architects, developers, and space planners generate optimized 2D floor plans,
+  photorealistic 3D renderings, virtual tours, Revit/CAD models, and quantity takeoffs from an
+  uploaded space plan (CAD, PDF, or JPEG) in minutes. Qbiq automates test-fits and layout
+  optimization for offices and commercial real estate, comparing multiple design options against
+  program requirements. The company is backed by Insight Partners and was added to the API
+  Evangelist network from a VC portfolio. As of this enrichment pass Qbiq operates a hosted web
+  application (plan.qbiq.ai) and publishes no public API, developer portal, SDKs, or machine-readable
+  specifications.
 url: https://raw.githubusercontent.com/api-evangelist/qbiq/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +17,30 @@ x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://cdn.prod.website-files.com/67692a05930f9cc672e6320d/67f65c8677c29e606a3aba4c_og.png
 tags:
 - Company
+- Real Estate
+- Architecture
+- Artificial Intelligence
+- Space Planning
+- Construction
+- Visualization
+- PropTech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,20 @@ maintainers:
 common:
 - type: Website
   url: https://qbiq.ai/
+- type: Login
+  url: https://plan.qbiq.ai/
+- type: Support
+  url: https://help.qbiq.ai/en/
+- type: Blog
+  url: https://qbiq.ai/blog
+- type: TermsOfService
+  url: https://qbiq.ai/legal/terms
+- type: PrivacyPolicy
+  url: https://qbiq.ai/legal/privacy-policy
+- type: DomainSecurity
+  url: security/qbiq-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
